@@ -662,6 +662,120 @@
       "slots": null
     }
   ],
+  "requirements": {
+    "inquiry_budget": 15,
+    "last_received": "2026-09-22",
+    "group_retained_minimum": {
+      "夜间": 73,
+      "周末": 75
+    }
+  },
+  "inquiries": [
+    {
+      "id": "F1",
+      "group": "夜间",
+      "period": "2026-09",
+      "points": [
+        "松",
+        "杉"
+      ],
+      "relation": "交集",
+      "cost": 7,
+      "ready_by": "2026-09-18",
+      "precision": 3,
+      "audience": [
+        "规划"
+      ]
+    },
+    {
+      "id": "F2",
+      "group": "夜间",
+      "period": "2026-09",
+      "points": [
+        "桂",
+        "竹"
+      ],
+      "relation": "并集",
+      "cost": 8,
+      "ready_by": "2026-09-20",
+      "precision": 4,
+      "audience": [
+        "规划",
+        "共享"
+      ]
+    },
+    {
+      "id": "F3",
+      "group": "夜间",
+      "period": "2026-09",
+      "points": [
+        "松",
+        "杉",
+        "桂",
+        "竹"
+      ],
+      "relation": "并集",
+      "cost": 8,
+      "ready_by": "2026-09-19",
+      "precision": 2,
+      "audience": [
+        "规划"
+      ]
+    },
+    {
+      "id": "F4",
+      "group": "夜间",
+      "period": "2026-09",
+      "points": [
+        "松",
+        "杉",
+        "桂"
+      ],
+      "relation": "交集",
+      "cost": 8,
+      "ready_by": "2026-09-25",
+      "precision": 2,
+      "audience": [
+        "规划"
+      ]
+    },
+    {
+      "id": "F5",
+      "group": "周末",
+      "period": "2026-09",
+      "points": [
+        "竹",
+        "松"
+      ],
+      "relation": "交集",
+      "cost": 7,
+      "ready_by": "2026-09-20",
+      "precision": 4,
+      "audience": [
+        "规划",
+        "共享"
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "inquiry": "F1",
+      "known": "2026-09-18",
+      "lower": 10,
+      "upper": 13
+    },
+    {
+      "inquiry": "F2",
+      "known": "2026-09-21",
+      "lower": 46,
+      "upper": 48
+    }
+  ],
+  "already_shared": [
+    "夜间-2026-09-0",
+    "夜间-2026-09-1",
+    "夜间-2026-09-3"
+  ],
   "new_certificate": {
     "ref": "N1",
     "group": "夜间",
